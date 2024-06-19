@@ -1,0 +1,88 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/oauthapi/oauth2/resourceOwner/token
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	grant_type=client_credentials
+				scope=trust
+				client_secret=invalid
+				client_id=692183103107-p0m7ent2hk7suguv4vq22hjcfhcr43pj.apps.googleusercontent.com
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/x-www-form-urlencoded; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 401 Unauthorized
+Date: Wed, 19 Jun 2024 01:17:20 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Content-Length: 84
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json
+
+{
+    "error": "erZOWM9g3UtwNRj340YYaK_W",
+    "status": "failed",
+    "msg": "Authentication failed"
+}
+***************************************************************************
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/oauthapi/oauth2/resourceOwner/token
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	grant_type=client_credentials
+				scope=trust
+				client_secret=invalid
+				client_id=invalid
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/x-www-form-urlencoded; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 401 Unauthorized
+Date: Wed, 19 Jun 2024 01:17:21 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Content-Length: 84
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json
+
+{
+    "error": "erZOWM9g3UtwNRj340YYaK_W",
+    "status": "failed",
+    "msg": "Authentication failed"
+}
+***************************************************************************
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/oauthapi/oauth2/resourceOwner/token
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	grant_type=client_credentials
+				scope=trust
+				client_secret=erZOWM9g3UtwNRj340YYaK_W
+				client_id=692183103107-p0m7ent2hk7suguv4vq22hjcfhcr43pj.apps.googleusercontent.com
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/x-www-form-urlencoded; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Wed, 19 Jun 2024 01:17:21 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Content-Length: 143
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json
+
+{
+    "access_token": "VI1P8722pPXCU7GFt2Pakg==",
+    "token_type": "Bearer",
+    "expires_in": 3600,
+    "refresh_token": "y0KWRME3yRho4HcpPi0dxQ==",
+    "scope": "create"
+}

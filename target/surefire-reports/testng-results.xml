@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-19T11:17:13 AEST" name="Suite" finished-at="2024-06-19T11:17:17 AEST" duration-ms="3568">
+    <groups>
+      <group name="JsonDataTests">
+        <method signature="PositiveAndNegative_7.callGetTokenAPINegative(java.util.HashMap)[pri:1, instance:tests.PositiveAndNegative_7@7d9d0818]" name="callGetTokenAPINegative" class="tests.PositiveAndNegative_7"/>
+        <method signature="PositiveAndNegative_7.callGetTokenAPIPositive(java.util.HashMap)[pri:2, instance:tests.PositiveAndNegative_7@7d9d0818]" name="callGetTokenAPIPositive" class="tests.PositiveAndNegative_7"/>
+      </group> <!-- JsonDataTests -->
+      <group name="Regression">
+        <method signature="PositiveAndNegative_7.callGetTokenAPIPositive(java.util.HashMap)[pri:2, instance:tests.PositiveAndNegative_7@7d9d0818]" name="callGetTokenAPIPositive" class="tests.PositiveAndNegative_7"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2024-06-19T11:17:13 AEST" name="Test" finished-at="2024-06-19T11:17:17 AEST" duration-ms="3568">
+      <class name="tests.PositiveAndNegative_7">
+        <test-method signature="callGetTokenAPINegative(java.util.HashMap)[pri:1, instance:tests.PositiveAndNegative_7@7d9d0818]" started-at="2024-06-19T11:17:13 AEST" name="callGetTokenAPINegative" data-provider="getTokenAPITestData" finished-at="2024-06-19T11:17:16 AEST" duration-ms="2264" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{client_secret=invalid, grant_type=client_credentials, client_id=692183103107-p0m7ent2hk7suguv4vq22hjcfhcr43pj.apps.googleusercontent.com, scope=trust}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callGetTokenAPINegative -->
+        <test-method signature="callGetTokenAPINegative(java.util.HashMap)[pri:1, instance:tests.PositiveAndNegative_7@7d9d0818]" started-at="2024-06-19T11:17:16 AEST" name="callGetTokenAPINegative" data-provider="getTokenAPITestData" finished-at="2024-06-19T11:17:16 AEST" duration-ms="561" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{client_secret=invalid, grant_type=client_credentials, client_id=invalid, scope=trust}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callGetTokenAPINegative -->
+        <test-method signature="callGetTokenAPIPositive(java.util.HashMap)[pri:2, instance:tests.PositiveAndNegative_7@7d9d0818]" started-at="2024-06-19T11:17:16 AEST" name="callGetTokenAPIPositive" data-provider="getTokenAPITestData" finished-at="2024-06-19T11:17:17 AEST" duration-ms="553" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{client_secret=erZOWM9g3UtwNRj340YYaK_W, grant_type=client_credentials, client_id=692183103107-p0m7ent2hk7suguv4vq22hjcfhcr43pj.apps.googleusercontent.com, scope=trust}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callGetTokenAPIPositive -->
+      </class> <!-- tests.PositiveAndNegative_7 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

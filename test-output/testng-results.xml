@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-19T09:55:38 AEST" name="Suite" finished-at="2024-06-19T09:55:42 AEST" duration-ms="3637">
+    <groups>
+    </groups>
+    <test started-at="2024-06-19T09:55:38 AEST" name="Test" finished-at="2024-06-19T09:55:42 AEST" duration-ms="3637">
+      <class name="tests.PositiveAndNegative_7">
+        <test-method is-config="true" signature="initializeTestCaseName(java.lang.reflect.Method)[pri:0, instance:tests.PositiveAndNegative_7@39a2bb97]" started-at="2024-06-19T09:55:38 AEST" name="initializeTestCaseName" finished-at="2024-06-19T09:55:38 AEST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.PositiveAndNegative_7.callGetTokenAPINegative(java.util.HashMap) throws java.io.FileNotFoundException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestCaseName -->
+        <test-method signature="callGetTokenAPINegative(java.util.HashMap)[pri:1, instance:tests.PositiveAndNegative_7@39a2bb97]" started-at="2024-06-19T09:55:38 AEST" name="callGetTokenAPINegative" data-provider="getTokenAPITestData" finished-at="2024-06-19T09:55:40 AEST" duration-ms="2296" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{client_secret=invalid, grant_type=client_credentials, client_id=692183103107-p0m7ent2hk7suguv4vq22hjcfhcr43pj.apps.googleusercontent.com, scope=trust}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callGetTokenAPINegative -->
+        <test-method signature="callGetTokenAPINegative(java.util.HashMap)[pri:1, instance:tests.PositiveAndNegative_7@39a2bb97]" started-at="2024-06-19T09:55:40 AEST" name="callGetTokenAPINegative" data-provider="getTokenAPITestData" finished-at="2024-06-19T09:55:41 AEST" duration-ms="558" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{client_secret=invalid, grant_type=client_credentials, client_id=invalid, scope=trust}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callGetTokenAPINegative -->
+        <test-method is-config="true" signature="initializeTestCaseName(java.lang.reflect.Method)[pri:0, instance:tests.PositiveAndNegative_7@39a2bb97]" started-at="2024-06-19T09:55:40 AEST" name="initializeTestCaseName" finished-at="2024-06-19T09:55:40 AEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.PositiveAndNegative_7.callGetTokenAPINegative(java.util.HashMap) throws java.io.FileNotFoundException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestCaseName -->
+        <test-method is-config="true" signature="initializeTestCaseName(java.lang.reflect.Method)[pri:0, instance:tests.PositiveAndNegative_7@39a2bb97]" started-at="2024-06-19T09:55:41 AEST" name="initializeTestCaseName" finished-at="2024-06-19T09:55:41 AEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.PositiveAndNegative_7.callGetTokenAPIPositive(java.util.HashMap) throws java.io.FileNotFoundException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestCaseName -->
+        <test-method signature="callGetTokenAPIPositive(java.util.HashMap)[pri:2, instance:tests.PositiveAndNegative_7@39a2bb97]" started-at="2024-06-19T09:55:41 AEST" name="callGetTokenAPIPositive" data-provider="getTokenAPITestData" finished-at="2024-06-19T09:55:42 AEST" duration-ms="582" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{client_secret=erZOWM9g3UtwNRj340YYaK_W, grant_type=client_credentials, client_id=692183103107-p0m7ent2hk7suguv4vq22hjcfhcr43pj.apps.googleusercontent.com, scope=trust}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callGetTokenAPIPositive -->
+      </class> <!-- tests.PositiveAndNegative_7 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

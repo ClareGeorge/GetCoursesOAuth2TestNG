@@ -1,0 +1,28 @@
+{
+	"callGetTokenAPINegative":[
+		{
+			"client_id": "692183103107-p0m7ent2hk7suguv4vq22hjcfhcr43pj.apps.googleusercontent.com",
+			"client_secret": "invalid",
+			"grant_type": "client_credentials",
+			"scope": "trust"
+		},
+		{
+			
+			"client_id": "invalid",
+			"client_secret": "invalid",
+			"grant_type": "client_credentials",
+			"scope": "trust"
+		}
+		
+	],
+	"callGetTokenAPIPositive":[
+		{
+				
+				"client_id": "692183103107-p0m7ent2hk7suguv4vq22hjcfhcr43pj.apps.googleusercontent.com",
+				"client_secret": "erZOWM9g3UtwNRj340YYaK_W",
+				"grant_type": "client_credentials",
+				"scope": "trust"		
+		}
+	]
+		
+}

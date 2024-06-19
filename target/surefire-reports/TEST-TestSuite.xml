@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="TestSuite" time="4.449" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\2.Code\RestAssured\GetCourseTestNG\target\test-classes;C:\2.Code\RestAssured\GetCourseTestNG\target\classes;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.1\jackson-databind-2.17.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.1\jackson-annotations-2.17.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.1\jackson-core-2.17.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="user.timezone" value="Australia/Sydney"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\3.Softwares\Amazon Corretto\jdk21.0.1_12\bin"/>
+    <property name="sun.java.command" value="C:\Windows\Temp\surefire5288654569512223066\surefirebooter-20240619111712983_3.jar C:\Windows\Temp\surefire5288654569512223066 2024-06-19T11-17-12_873-jvmRun1 surefire-20240619111712983_1tmp surefire_0-20240619111712983_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\2.Code\RestAssured\GetCourseTestNG\target\test-classes;C:\2.Code\RestAssured\GetCourseTestNG\target\classes;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.1\jackson-databind-2.17.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.1\jackson-annotations-2.17.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.1\jackson-core-2.17.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-10-17"/>
+    <property name="java.home" value="C:\3.Softwares\Amazon Corretto\jdk21.0.1_12"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\2.Code\RestAssured\GetCourseTestNG"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Windows\Temp\surefire5288654569512223066\surefirebooter-20240619111712983_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.1+12-LTS"/>
+    <property name="user.name" value="DESKTOP-SL7JA35$"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Corretto-21.0.1.12.1"/>
+    <property name="localRepository" value="C:\WINDOWS\system32\config\systemprofile\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-21/issues/"/>
+    <property name="java.io.tmpdir" value="C:\WINDOWS\TEMP\"/>
+    <property name="java.version" value="21.0.1"/>
+    <property name="user.dir" value="C:\2.Code\RestAssured\GetCourseTestNG"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\3.Softwares\Amazon Corretto\jdk21.0.1_12\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\maven3.9.6/bin;%Path%;C:\3.Softwares\Python\;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="21.0.1+12-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="callGetTokenAPINegative[{client_secret=invalid, grant_type=client_credentials, client_id=692183103107-p0m7ent2hk7suguv4vq22hjcfhcr43pj.apps.googleusercontent.com, scope=trust}](1)" classname="tests.PositiveAndNegative_7" time="2.269">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://rahulshettyacademy.com/oauthapi/oauth2/resourceOwner/token
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	grant_type=client_credentials
+				scope=trust
+				client_secret=invalid
+				client_id=692183103107-p0m7ent2hk7suguv4vq22hjcfhcr43pj.apps.googleusercontent.com
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/x-www-form-urlencoded; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 401 Unauthorized
+Date: Wed, 19 Jun 2024 01:17:20 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Content-Length: 84
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json
+
+{
+    "error": "erZOWM9g3UtwNRj340YYaK_W",
+    "status": "failed",
+    "msg": "Authentication failed"
+}
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="callGetTokenAPINegative[{client_secret=invalid, grant_type=client_credentials, client_id=invalid, scope=trust}](2)" classname="tests.PositiveAndNegative_7" time="0.561">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://rahulshettyacademy.com/oauthapi/oauth2/resourceOwner/token
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	grant_type=client_credentials
+				scope=trust
+				client_secret=invalid
+				client_id=invalid
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/x-www-form-urlencoded; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 401 Unauthorized
+Date: Wed, 19 Jun 2024 01:17:21 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Content-Length: 84
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json
+
+{
+    "error": "erZOWM9g3UtwNRj340YYaK_W",
+    "status": "failed",
+    "msg": "Authentication failed"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="callGetTokenAPIPositive[{client_secret=erZOWM9g3UtwNRj340YYaK_W, grant_type=client_credentials, client_id=692183103107-p0m7ent2hk7suguv4vq22hjcfhcr43pj.apps.googleusercontent.com, scope=trust}](1)" classname="tests.PositiveAndNegative_7" time="0.553">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://rahulshettyacademy.com/oauthapi/oauth2/resourceOwner/token
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	grant_type=client_credentials
+				scope=trust
+				client_secret=erZOWM9g3UtwNRj340YYaK_W
+				client_id=692183103107-p0m7ent2hk7suguv4vq22hjcfhcr43pj.apps.googleusercontent.com
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/x-www-form-urlencoded; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Wed, 19 Jun 2024 01:17:21 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Content-Length: 143
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json
+
+{
+    "access_token": "VI1P8722pPXCU7GFt2Pakg==",
+    "token_type": "Bearer",
+    "expires_in": 3600,
+    "refresh_token": "y0KWRME3yRho4HcpPi0dxQ==",
+    "scope": "create"
+}
+]]></system-out>
+  </testcase>
+</testsuite>
